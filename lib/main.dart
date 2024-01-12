@@ -3,12 +3,14 @@ import 'package:flutter/cupertino.dart';
 import './pages/splash.dart';
 
 void main() {
-  runApp(const Movify());
+  runApp(const CursedGamer());
 }
-
-class Movify extends StatelessWidget {
-  const Movify({super.key});
-
+class CursedGamer extends StatefulWidget {
+  const CursedGamer({super.key});
+  @override
+  State<CursedGamer> createState() => _CursedGamerState();
+}
+class _CursedGamerState extends State<CursedGamer> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,17 +21,3 @@ class Movify extends StatelessWidget {
   }
 }
 
-class DashboardScreen extends StatelessWidget {
-  const DashboardScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Center(
-          child: Text("Cursed Gamer"),
-        ),
-      ),
-    );
-  }
-}
