@@ -1,4 +1,4 @@
-# movify
+# Cursed Gamer
 
 A new Flutter project.
 
