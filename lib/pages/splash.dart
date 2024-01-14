@@ -1,9 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 import 'dashboard.dart';
 
 class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
   @override
   State<SplashScreen> createState() => _SplashScreenState();
 }
@@ -13,17 +14,18 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    Timer(Duration(seconds: 2), () {
+    Timer(const Duration(seconds: 2), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => DashboardScreen()));
+          context, MaterialPageRoute(builder: (context) => const DashboardScreen()));
     });
   }
 
+@override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
         color: Colors.amber,
-        child: Center(
+        child: const Center(
             child: Text(
           'Cursed Gamer',
           style: TextStyle(
