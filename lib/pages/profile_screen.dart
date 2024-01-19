@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+
 import '../Components/sidebar.dart';
 
-class DashboardScreen extends StatelessWidget {
-  const DashboardScreen({super.key});
+
+
+class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,15 +16,15 @@ class DashboardScreen extends StatelessWidget {
         appBar: AppBar(
           title: const Center(
               child: Text(
-            "Cursed Gamer",
-            style: TextStyle(
-                fontWeight: FontWeight.w900, fontSize: 35, fontFamily: 'Salsa'),
-          )),
+                "Cursed Gamer",
+                style: TextStyle(
+                    fontWeight: FontWeight.w900, fontSize: 35, fontFamily: 'Salsa'),
+              )),
           backgroundColor: Colors.amber,
         ),
-        body: const Center(
+        body: Center(
           child: Text(
-            'Home Page',
+            'Profile',
             style: TextStyle(fontWeight: FontWeight.w900, fontSize: 50),
           ),
         ),
