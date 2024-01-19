@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:movify/Components/sidebar.dart';
 import 'package:movify/pages/dashboard.dart';
 import 'package:movify/pages/favourite_screen.dart';
 import 'package:movify/pages/profile_screen.dart';
@@ -31,12 +32,14 @@ class _BottomNavBarState extends State<BottomNavBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        drawer: const Sidebar(),
         body: _pages[currentIndex],
         bottomNavigationBar: Container(
           decoration: const BoxDecoration(color: Colors.amber),
           child: Padding(
             padding: const EdgeInsets.all(3.5),
             child: GNav(
+              haptic: true,
                 onTabChange: (index) => goToPage(index),
                 backgroundColor: Colors.amber,
                 iconSize: 30,

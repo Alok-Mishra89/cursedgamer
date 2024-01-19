@@ -16,7 +16,7 @@ class _CursedGamerState extends State<CursedGamer> {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home:  Scaffold(
-        body: BottomNavBar(),
+        body: SplashScreen(),
       ),
     );
   }
