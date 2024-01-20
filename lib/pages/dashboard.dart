@@ -7,8 +7,8 @@ import 'package:movify/pages/Dashboard%20Pages/Dipesh.dart';
 import 'package:movify/pages/Dashboard%20Pages/Madhav.dart';
 import 'package:movify/pages/Dashboard%20Pages/Monika.dart';
 import 'package:movify/pages/Dashboard%20Pages/Nikita.dart';
-import 'package:movify/pages/search_screen.dart';
 import '../Components/sidebar.dart';
+import 'Dashboard Pages/Ankita.dart';
 
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({super.key});
@@ -38,7 +38,6 @@ class DashboardScreen extends StatelessWidget {
             children: [
               InkWell(
                 onTap: () {
-                  onTap:
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Alok()));
                 },
@@ -54,7 +53,6 @@ class DashboardScreen extends StatelessWidget {
               ),
               InkWell(
                 onTap: () {
-                  onTap:
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Nikita()));
                 },
@@ -70,7 +68,6 @@ class DashboardScreen extends StatelessWidget {
               ),
               InkWell(
                 onTap: () {
-                  onTap:
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Amisha()));
                 },
@@ -86,7 +83,6 @@ class DashboardScreen extends StatelessWidget {
               ),
               InkWell(
                 onTap: () {
-                  onTap:
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Madhav()));
                 },
@@ -102,7 +98,6 @@ class DashboardScreen extends StatelessWidget {
               ),
               InkWell(
                 onTap: () {
-                  onTap:
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Monika()));
                 },
@@ -118,7 +113,6 @@ class DashboardScreen extends StatelessWidget {
               ),
               InkWell(
                 onTap: () {
-                  onTap:
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Ayush()));
                 },
@@ -134,7 +128,6 @@ class DashboardScreen extends StatelessWidget {
               ),
               InkWell(
                 onTap: () {
-                  onTap:
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Dipesh()));
                 },
@@ -150,7 +143,6 @@ class DashboardScreen extends StatelessWidget {
               ),
               InkWell(
                 onTap: () {
-                  onTap:
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Abhisekh()));
                 },
@@ -159,6 +151,21 @@ class DashboardScreen extends StatelessWidget {
                     child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                       Text(
                         'Abhisekh',
+                        style: TextStyle(
+                            fontWeight: FontWeight.w500, fontSize: 30),
+                      )
+                    ])),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Ankita()));
+                },
+                child: Container(
+                    color: Colors.blueGrey.shade300,
+                    child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+                      Text(
+                        'Ankita',
                         style: TextStyle(
                             fontWeight: FontWeight.w500, fontSize: 30),
                       )
