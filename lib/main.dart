@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movify/pages/user_login_page.dart';
 import 'Components/splash.dart';
 import 'Components/bottom_nav.dart';
 
@@ -16,7 +17,7 @@ class _CursedGamerState extends State<CursedGamer> {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home:  Scaffold(
-        body: SplashScreen(),
+        body: User_Login_Page(),
       ),
     );
   }

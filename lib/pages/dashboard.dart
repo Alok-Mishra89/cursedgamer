@@ -41,15 +41,16 @@ class DashboardScreen extends StatelessWidget {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Alok()));
                 },
-                child: Container(
-                    color: Colors.blueGrey.shade300,
-                    child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                      Text(
-                        'Alok',
-                        style: TextStyle(
-                            fontWeight: FontWeight.w500, fontSize: 30),
-                      )
-                    ])),
+                child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.blueGrey.shade300,),
+                    child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Alok',
+                            style: TextStyle(
+                                fontWeight: FontWeight.w500, fontSize: 30),
+                          )
+                        ])),
               ),
               InkWell(
                 onTap: () {
@@ -57,14 +58,16 @@ class DashboardScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => const Nikita()));
                 },
                 child: Container(
-                    color: Colors.blueGrey.shade300,
-                    child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                      Text(
-                        'Nikita',
-                        style: TextStyle(
-                            fontWeight: FontWeight.w500, fontSize: 30),
-                      )
-                    ])),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.blueGrey.shade300,),
+                    child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Nikita',
+                            style: TextStyle(
+                                fontWeight: FontWeight.w500, fontSize: 30),
+                          )
+                        ])),
               ),
               InkWell(
                 onTap: () {
@@ -72,14 +75,16 @@ class DashboardScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => const Amisha()));
                 },
                 child: Container(
-                    color: Colors.blueGrey.shade300,
-                    child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                      Text(
-                        'Amisha',
-                        style: TextStyle(
-                            fontWeight: FontWeight.w500, fontSize: 30),
-                      )
-                    ])),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.blueGrey.shade300,),
+                    child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Amisha',
+                            style: TextStyle(
+                                fontWeight: FontWeight.w500, fontSize: 30),
+                          )
+                        ])),
               ),
               InkWell(
                 onTap: () {
@@ -87,14 +92,16 @@ class DashboardScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => const Madhav()));
                 },
                 child: Container(
-                    color: Colors.blueGrey.shade300,
-                    child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                      Text(
-                        'Madhav',
-                        style: TextStyle(
-                            fontWeight: FontWeight.w500, fontSize: 30),
-                      )
-                    ])),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.blueGrey.shade300,),
+                    child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Madhav',
+                            style: TextStyle(
+                                fontWeight: FontWeight.w500, fontSize: 30),
+                          )
+                        ])),
               ),
               InkWell(
                 onTap: () {
@@ -102,14 +109,16 @@ class DashboardScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => const Monika()));
                 },
                 child: Container(
-                    color: Colors.blueGrey.shade300,
-                    child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                      Text(
-                        'Monika',
-                        style: TextStyle(
-                            fontWeight: FontWeight.w500, fontSize: 30),
-                      )
-                    ])),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.blueGrey.shade300,),
+                    child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Monika',
+                            style: TextStyle(
+                                fontWeight: FontWeight.w500, fontSize: 30),
+                          )
+                        ])),
               ),
               InkWell(
                 onTap: () {
@@ -117,14 +126,16 @@ class DashboardScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => const Ayush()));
                 },
                 child: Container(
-                    color: Colors.blueGrey.shade300,
-                    child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                      Text(
-                        'Ayush',
-                        style: TextStyle(
-                            fontWeight: FontWeight.w500, fontSize: 30),
-                      )
-                    ])),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.blueGrey.shade300,),
+                    child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Ayush',
+                            style: TextStyle(
+                                fontWeight: FontWeight.w500, fontSize: 30),
+                          )
+                        ])),
               ),
               InkWell(
                 onTap: () {
@@ -132,29 +143,35 @@ class DashboardScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => const Dipesh()));
                 },
                 child: Container(
-                    color: Colors.blueGrey.shade300,
-                    child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                      Text(
-                        'Dipesh',
-                        style: TextStyle(
-                            fontWeight: FontWeight.w500, fontSize: 30),
-                      )
-                    ])),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.blueGrey.shade300,),
+                    child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Dipesh',
+                            style: TextStyle(
+                                fontWeight: FontWeight.w500, fontSize: 30),
+                          )
+                        ])),
               ),
               InkWell(
                 onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Abhisekh()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const Abhisekh()));
                 },
                 child: Container(
-                    color: Colors.blueGrey.shade300,
-                    child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                      Text(
-                        'Abhisekh',
-                        style: TextStyle(
-                            fontWeight: FontWeight.w500, fontSize: 30),
-                      )
-                    ])),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.blueGrey.shade300,),
+                    child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Abhisekh',
+                            style: TextStyle(
+                                fontWeight: FontWeight.w500, fontSize: 30),
+                          )
+                        ])),
               ),
               InkWell(
                 onTap: () {
@@ -162,16 +179,18 @@ class DashboardScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => const Ankita()));
                 },
                 child: Container(
-                    color: Colors.blueGrey.shade300,
-                    child: const Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                      Text(
-                        'Ankita',
-                        style: TextStyle(
-                            fontWeight: FontWeight.w500, fontSize: 30),
-                      )
-                    ])),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.blueGrey.shade300,),
+                    child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Ankita',
+                            style: TextStyle(
+                                fontWeight: FontWeight.w500, fontSize: 30),
+                          )
+                        ])),
               ),
-              ],
+            ],
           ),
         ),
       ),
